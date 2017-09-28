@@ -3,6 +3,9 @@ import PackageDescription
 
 let package = Package(
   name: "MySQL",
+  products: [
+    .library(name: "MySQL", targets: ["MySQL"])
+  ],
   dependencies: [
     .package(url: "https://github.com/eman6576/swift-libmysql", .revision("79b05302c868849972368854dd5a530cac49e6e5"))
   ],
