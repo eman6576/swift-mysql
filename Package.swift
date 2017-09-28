@@ -9,6 +9,6 @@ let package = Package(
     Target(name: "MySQL"),
   ],
   dependencies: [
-    .Package(url: "https://github.com/nicholasjackson/swift-libmysql", majorVersion: 0, minor: 1)
+    .Package(url: "https://github.com/eman6576/swift-libmysql", majorVersion: 0, minor: 1)
   ]
 )
